@@ -1,0 +1,14 @@
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .brand {
+    display: none;
+  }
+
+  #personal-information {
+    display: grid;
+    width: 100%;
+  }
+  #job-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
